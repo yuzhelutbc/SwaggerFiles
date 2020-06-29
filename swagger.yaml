@@ -1,0 +1,812 @@
+openapi: 3.0.1
+info:
+  title: Supplier Product from YAML
+  description: API for Supplier Product from YAML
+  version: '0.6'
+servers:
+  - url: 'https://panda-dev.hotwaxsystems.com'
+paths:
+  /api/references/unitOfMeasureTypes:
+    get:
+      description: Auto generated using Swagger Inspector
+      responses:
+        '200':
+          description: Auto generated using Swagger Inspector
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  statusDescription:
+                    type: string
+                  data:
+                    type: object
+                    properties:
+                      referenceData:
+                        type: object
+                        properties:
+                          ENERGY_MEASURE:
+                            type: object
+                            properties:
+                              lastUpdatedStamp:
+                                type: number
+                              parentTypeId: {}
+                              hasTable:
+                                type: string
+                              createdTxStamp:
+                                type: number
+                              createdStamp:
+                                type: number
+                              description:
+                                type: string
+                              lastUpdatedTxStamp:
+                                type: number
+                              uomTypeId:
+                                type: string
+                          VOLUME_LIQ_MEASURE:
+                            type: object
+                            properties:
+                              lastUpdatedStamp:
+                                type: number
+                              parentTypeId: {}
+                              hasTable:
+                                type: string
+                              createdTxStamp:
+                                type: number
+                              createdStamp:
+                                type: number
+                              description:
+                                type: string
+                              lastUpdatedTxStamp:
+                                type: number
+                              uomTypeId:
+                                type: string
+                          LENGTH_MEASURE:
+                            type: object
+                            properties:
+                              lastUpdatedStamp:
+                                type: number
+                              parentTypeId: {}
+                              hasTable:
+                                type: string
+                              createdTxStamp:
+                                type: number
+                              createdStamp:
+                                type: number
+                              description:
+                                type: string
+                              lastUpdatedTxStamp:
+                                type: number
+                              uomTypeId:
+                                type: string
+                          TEMP_MEASURE:
+                            type: object
+                            properties:
+                              lastUpdatedStamp:
+                                type: number
+                              parentTypeId: {}
+                              hasTable:
+                                type: string
+                              createdTxStamp:
+                                type: number
+                              createdStamp:
+                                type: number
+                              description:
+                                type: string
+                              lastUpdatedTxStamp:
+                                type: number
+                              uomTypeId:
+                                type: string
+                          TIME_FREQ_MEASURE:
+                            type: object
+                            properties:
+                              lastUpdatedStamp:
+                                type: number
+                              parentTypeId: {}
+                              hasTable:
+                                type: string
+                              createdTxStamp:
+                                type: number
+                              createdStamp:
+                                type: number
+                              description:
+                                type: string
+                              lastUpdatedTxStamp:
+                                type: number
+                              uomTypeId:
+                                type: string
+                          OTHER_MEASURE:
+                            type: object
+                            properties:
+                              lastUpdatedStamp:
+                                type: number
+                              parentTypeId: {}
+                              hasTable:
+                                type: string
+                              createdTxStamp:
+                                type: number
+                              createdStamp:
+                                type: number
+                              description:
+                                type: string
+                              lastUpdatedTxStamp:
+                                type: number
+                              uomTypeId:
+                                type: string
+                          VOLUME_DRY_MEASURE:
+                            type: object
+                            properties:
+                              lastUpdatedStamp:
+                                type: number
+                              parentTypeId: {}
+                              hasTable:
+                                type: string
+                              createdTxStamp:
+                                type: number
+                              createdStamp:
+                                type: number
+                              description:
+                                type: string
+                              lastUpdatedTxStamp:
+                                type: number
+                              uomTypeId:
+                                type: string
+                          CURRENCY_MEASURE:
+                            type: object
+                            properties:
+                              lastUpdatedStamp:
+                                type: number
+                              parentTypeId: {}
+                              hasTable:
+                                type: string
+                              createdTxStamp:
+                                type: number
+                              createdStamp:
+                                type: number
+                              description:
+                                type: string
+                              lastUpdatedTxStamp:
+                                type: number
+                              uomTypeId:
+                                type: string
+                          DATA_MEASURE:
+                            type: object
+                            properties:
+                              lastUpdatedStamp:
+                                type: number
+                              parentTypeId: {}
+                              hasTable:
+                                type: string
+                              createdTxStamp:
+                                type: number
+                              createdStamp:
+                                type: number
+                              description:
+                                type: string
+                              lastUpdatedTxStamp:
+                                type: number
+                              uomTypeId:
+                                type: string
+                          AREA_MEASURE:
+                            type: object
+                            properties:
+                              lastUpdatedStamp:
+                                type: number
+                              parentTypeId: {}
+                              hasTable:
+                                type: string
+                              createdTxStamp:
+                                type: number
+                              createdStamp:
+                                type: number
+                              description:
+                                type: string
+                              lastUpdatedTxStamp:
+                                type: number
+                              uomTypeId:
+                                type: string
+                          WEIGHT_MEASURE:
+                            type: object
+                            properties:
+                              lastUpdatedStamp:
+                                type: number
+                              parentTypeId: {}
+                              hasTable:
+                                type: string
+                              createdTxStamp:
+                                type: number
+                              createdStamp:
+                                type: number
+                              description:
+                                type: string
+                              lastUpdatedTxStamp:
+                                type: number
+                              uomTypeId:
+                                type: string
+                          DATASPD_MEASURE:
+                            type: object
+                            properties:
+                              lastUpdatedStamp:
+                                type: number
+                              parentTypeId: {}
+                              hasTable:
+                                type: string
+                              createdTxStamp:
+                                type: number
+                              createdStamp:
+                                type: number
+                              description:
+                                type: string
+                              lastUpdatedTxStamp:
+                                type: number
+                              uomTypeId:
+                                type: string
+                      referenceCodes:
+                        type: array
+                        items:
+                          type: string
+                      referenceType:
+                        type: string
+                  successMessage:
+                    type: string
+                  statusCode:
+                    type: integer
+              examples:
+                '0':
+                  value: >-
+                    {"statusCode":200,"statusDescription":"OK","successMessage":"OK","data":{"referenceData":{"ENERGY_MEASURE":{"lastUpdatedStamp":1588142839256,"parentTypeId":null,"hasTable":"N","createdTxStamp":1588142839198,"createdStamp":1588142839256,"description":"Energy","lastUpdatedTxStamp":1588142839198,"uomTypeId":"ENERGY_MEASURE"},"VOLUME_LIQ_MEASURE":{"lastUpdatedStamp":1588142839253,"parentTypeId":null,"hasTable":"N","createdTxStamp":1588142839198,"createdStamp":1588142839253,"description":"Liquid
+                    Volume","lastUpdatedTxStamp":1588142839198,"uomTypeId":"VOLUME_LIQ_MEASURE"},"LENGTH_MEASURE":{"lastUpdatedStamp":1588142839251,"parentTypeId":null,"hasTable":"N","createdTxStamp":1588142839198,"createdStamp":1588142839251,"description":"Length","lastUpdatedTxStamp":1588142839198,"uomTypeId":"LENGTH_MEASURE"},"TEMP_MEASURE":{"lastUpdatedStamp":1588142839257,"parentTypeId":null,"hasTable":"N","createdTxStamp":1588142839198,"createdStamp":1588142839257,"description":"Temperature","lastUpdatedTxStamp":1588142839198,"uomTypeId":"TEMP_MEASURE"},"TIME_FREQ_MEASURE":{"lastUpdatedStamp":1588142839250,"parentTypeId":null,"hasTable":"N","createdTxStamp":1588142839198,"createdStamp":1588142839250,"description":"Time/Frequency","lastUpdatedTxStamp":1588142839198,"uomTypeId":"TIME_FREQ_MEASURE"},"OTHER_MEASURE":{"lastUpdatedStamp":1588142839258,"parentTypeId":null,"hasTable":"N","createdTxStamp":1588142839198,"createdStamp":1588142839258,"description":"Other","lastUpdatedTxStamp":1588142839198,"uomTypeId":"OTHER_MEASURE"},"VOLUME_DRY_MEASURE":{"lastUpdatedStamp":1588142839254,"parentTypeId":null,"hasTable":"N","createdTxStamp":1588142839198,"createdStamp":1588142839254,"description":"Dry
+                    Volume","lastUpdatedTxStamp":1588142839198,"uomTypeId":"VOLUME_DRY_MEASURE"},"CURRENCY_MEASURE":{"lastUpdatedStamp":1588142839247,"parentTypeId":null,"hasTable":"N","createdTxStamp":1588142839198,"createdStamp":1588142839247,"description":"Currency","lastUpdatedTxStamp":1588142839198,"uomTypeId":"CURRENCY_MEASURE"},"DATA_MEASURE":{"lastUpdatedStamp":1588142839248,"parentTypeId":null,"hasTable":"N","createdTxStamp":1588142839198,"createdStamp":1588142839248,"description":"Data
+                    Size","lastUpdatedTxStamp":1588142839198,"uomTypeId":"DATA_MEASURE"},"AREA_MEASURE":{"lastUpdatedStamp":1588142839252,"parentTypeId":null,"hasTable":"N","createdTxStamp":1588142839198,"createdStamp":1588142839252,"description":"Area","lastUpdatedTxStamp":1588142839198,"uomTypeId":"AREA_MEASURE"},"WEIGHT_MEASURE":{"lastUpdatedStamp":1588142839255,"parentTypeId":null,"hasTable":"N","createdTxStamp":1588142839198,"createdStamp":1588142839255,"description":"Weight","lastUpdatedTxStamp":1588142839198,"uomTypeId":"WEIGHT_MEASURE"},"DATASPD_MEASURE":{"lastUpdatedStamp":1588142839249,"parentTypeId":null,"hasTable":"N","createdTxStamp":1588142839198,"createdStamp":1588142839249,"description":"Data
+                    Speed","lastUpdatedTxStamp":1588142839198,"uomTypeId":"DATASPD_MEASURE"}},"referenceCodes":["AREA_MEASURE","CURRENCY_MEASURE","DATASPD_MEASURE","DATA_MEASURE","ENERGY_MEASURE","LENGTH_MEASURE","OTHER_MEASURE","TEMP_MEASURE","TIME_FREQ_MEASURE","VOLUME_DRY_MEASURE","VOLUME_LIQ_MEASURE","WEIGHT_MEASURE"],"referenceType":"UomType"}}
+      servers:
+        - url: 'https://panda-dev.hotwaxsystems.com'
+    servers:
+      - url: 'https://panda-dev.hotwaxsystems.com'
+  /api/references/partyClassificationTypes:
+    get:
+      description: Auto generated using Swagger Inspector
+      responses:
+        '200':
+          description: Auto generated using Swagger Inspector
+      servers:
+        - url: 'https://panda-dev.hotwaxsystems.com'
+    servers:
+      - url: 'https://panda-dev.hotwaxsystems.com'
+  /api/references/geoCodes:
+    get:
+      description: Auto generated using Swagger Inspector
+      responses:
+        '200':
+          description: Auto generated using Swagger Inspector
+      servers:
+        - url: 'https://panda-dev.hotwaxsystems.com'
+    servers:
+      - url: 'https://panda-dev.hotwaxsystems.com'
+  /api/references/partyRelationshipTypes:
+    get:
+      description: Auto generated using Swagger Inspector
+      responses:
+        '200':
+          description: Auto generated using Swagger Inspector
+      servers:
+        - url: 'https://panda-dev.hotwaxsystems.com'
+    servers:
+      - url: 'https://panda-dev.hotwaxsystems.com'
+  /api/references/partyTypes:
+    get:
+      description: Auto generated using Swagger Inspector
+      responses:
+        '200':
+          description: Auto generated using Swagger Inspector
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  statusDescription:
+                    type: string
+                  data:
+                    type: object
+                    properties:
+                      referenceData:
+                        type: object
+                        properties:
+                          PERSON:
+                            type: object
+                            properties:
+                              partyTypeId:
+                                type: string
+                              lastUpdatedStamp:
+                                type: number
+                              parentTypeId: {}
+                              hasTable:
+                                type: string
+                              createdTxStamp:
+                                type: number
+                              createdStamp:
+                                type: number
+                              description:
+                                type: string
+                              lastUpdatedTxStamp:
+                                type: number
+                          LEGAL_ORGANIZATION:
+                            type: object
+                            properties:
+                              partyTypeId:
+                                type: string
+                              lastUpdatedStamp:
+                                type: number
+                              parentTypeId:
+                                type: string
+                              hasTable:
+                                type: string
+                              createdTxStamp:
+                                type: number
+                              createdStamp:
+                                type: number
+                              description:
+                                type: string
+                              lastUpdatedTxStamp:
+                                type: number
+                          PARTY_GROUP:
+                            type: object
+                            properties:
+                              partyTypeId:
+                                type: string
+                              lastUpdatedStamp:
+                                type: number
+                              parentTypeId: {}
+                              hasTable:
+                                type: string
+                              createdTxStamp:
+                                type: number
+                              createdStamp:
+                                type: number
+                              description:
+                                type: string
+                              lastUpdatedTxStamp:
+                                type: number
+                          GOVERNMENT_AGENCY:
+                            type: object
+                            properties:
+                              partyTypeId:
+                                type: string
+                              lastUpdatedStamp:
+                                type: number
+                              parentTypeId:
+                                type: string
+                              hasTable:
+                                type: string
+                              createdTxStamp:
+                                type: number
+                              createdStamp:
+                                type: number
+                              description:
+                                type: string
+                              lastUpdatedTxStamp:
+                                type: number
+                          INFORMAL_GROUP:
+                            type: object
+                            properties:
+                              partyTypeId:
+                                type: string
+                              lastUpdatedStamp:
+                                type: number
+                              parentTypeId:
+                                type: string
+                              hasTable:
+                                type: string
+                              createdTxStamp:
+                                type: number
+                              createdStamp:
+                                type: number
+                              description:
+                                type: string
+                              lastUpdatedTxStamp:
+                                type: number
+                          TEAM:
+                            type: object
+                            properties:
+                              partyTypeId:
+                                type: string
+                              lastUpdatedStamp:
+                                type: number
+                              parentTypeId:
+                                type: string
+                              hasTable:
+                                type: string
+                              createdTxStamp:
+                                type: number
+                              createdStamp:
+                                type: number
+                              description:
+                                type: string
+                              lastUpdatedTxStamp:
+                                type: number
+                          CORPORATION:
+                            type: object
+                            properties:
+                              partyTypeId:
+                                type: string
+                              lastUpdatedStamp:
+                                type: number
+                              parentTypeId:
+                                type: string
+                              hasTable:
+                                type: string
+                              createdTxStamp:
+                                type: number
+                              createdStamp:
+                                type: number
+                              description:
+                                type: string
+                              lastUpdatedTxStamp:
+                                type: number
+                          AUTOMATED_AGENT:
+                            type: object
+                            properties:
+                              partyTypeId:
+                                type: string
+                              lastUpdatedStamp:
+                                type: number
+                              parentTypeId: {}
+                              hasTable:
+                                type: string
+                              createdTxStamp:
+                                type: number
+                              createdStamp:
+                                type: number
+                              description:
+                                type: string
+                              lastUpdatedTxStamp:
+                                type: number
+                          FAMILY:
+                            type: object
+                            properties:
+                              partyTypeId:
+                                type: string
+                              lastUpdatedStamp:
+                                type: number
+                              parentTypeId:
+                                type: string
+                              hasTable:
+                                type: string
+                              createdTxStamp:
+                                type: number
+                              createdStamp:
+                                type: number
+                              description:
+                                type: string
+                              lastUpdatedTxStamp:
+                                type: number
+                      referenceCodes:
+                        type: array
+                        items:
+                          type: string
+                      referenceType:
+                        type: string
+                  successMessage:
+                    type: string
+                  statusCode:
+                    type: integer
+              examples:
+                '0':
+                  value: >-
+                    {"statusCode":200,"statusDescription":"OK","successMessage":"OK","data":{"referenceData":{"PERSON":{"partyTypeId":"PERSON","lastUpdatedStamp":1588142842138,"parentTypeId":null,"hasTable":"Y","createdTxStamp":1588142841875,"createdStamp":1588142842138,"description":"Person","lastUpdatedTxStamp":1588142841875},"LEGAL_ORGANIZATION":{"partyTypeId":"LEGAL_ORGANIZATION","lastUpdatedStamp":1588142842143,"parentTypeId":"PARTY_GROUP","hasTable":"N","createdTxStamp":1588142841875,"createdStamp":1588142842143,"description":"Legal
+                    Organization","lastUpdatedTxStamp":1588142841875},"PARTY_GROUP":{"partyTypeId":"PARTY_GROUP","lastUpdatedStamp":1588142842139,"parentTypeId":null,"hasTable":"Y","createdTxStamp":1588142841875,"createdStamp":1588142842139,"description":"Party
+                    Group","lastUpdatedTxStamp":1588142841875},"GOVERNMENT_AGENCY":{"partyTypeId":"GOVERNMENT_AGENCY","lastUpdatedStamp":1588142842145,"parentTypeId":"LEGAL_ORGANIZATION","hasTable":"N","createdTxStamp":1588142841875,"createdStamp":1588142842145,"description":"Government
+                    Agency","lastUpdatedTxStamp":1588142841875},"INFORMAL_GROUP":{"partyTypeId":"INFORMAL_GROUP","lastUpdatedStamp":1588142842140,"parentTypeId":"PARTY_GROUP","hasTable":"N","createdTxStamp":1588142841875,"createdStamp":1588142842140,"description":"Informal
+                    Group","lastUpdatedTxStamp":1588142841875},"TEAM":{"partyTypeId":"TEAM","lastUpdatedStamp":1588142842142,"parentTypeId":"INFORMAL_GROUP","hasTable":"N","createdTxStamp":1588142841875,"createdStamp":1588142842142,"description":"Team","lastUpdatedTxStamp":1588142841875},"CORPORATION":{"partyTypeId":"CORPORATION","lastUpdatedStamp":1588142842144,"parentTypeId":"LEGAL_ORGANIZATION","hasTable":"N","createdTxStamp":1588142841875,"createdStamp":1588142842144,"description":"Corporation","lastUpdatedTxStamp":1588142841875},"AUTOMATED_AGENT":{"partyTypeId":"AUTOMATED_AGENT","lastUpdatedStamp":1588142842137,"parentTypeId":null,"hasTable":"N","createdTxStamp":1588142841875,"createdStamp":1588142842137,"description":"Automated
+                    Agent","lastUpdatedTxStamp":1588142841875},"FAMILY":{"partyTypeId":"FAMILY","lastUpdatedStamp":1588142842141,"parentTypeId":"INFORMAL_GROUP","hasTable":"N","createdTxStamp":1588142841875,"createdStamp":1588142842141,"description":"Family","lastUpdatedTxStamp":1588142841875}},"referenceCodes":["AUTOMATED_AGENT","CORPORATION","FAMILY","GOVERNMENT_AGENCY","INFORMAL_GROUP","LEGAL_ORGANIZATION","PARTY_GROUP","PERSON","TEAM"],"referenceType":"PartyType"}}
+      servers:
+        - url: 'https://panda-dev.hotwaxsystems.com'
+    servers:
+      - url: 'https://panda-dev.hotwaxsystems.com'
+  /api/references/getStatuses:
+    get:
+      description: Auto generated using Swagger Inspector
+      responses:
+        '200':
+          description: Auto generated using Swagger Inspector
+      servers:
+        - url: 'https://panda-dev.hotwaxsystems.com'
+    servers:
+      - url: 'https://panda-dev.hotwaxsystems.com'
+  /api/references/partyRoles:
+    get:
+      description: Auto generated using Swagger Inspector
+      responses:
+        '200':
+          description: Auto generated using Swagger Inspector
+      servers:
+        - url: 'https://panda-dev.hotwaxsystems.com'
+    servers:
+      - url: 'https://panda-dev.hotwaxsystems.com'
+  /api/references/unitOfMeasures:
+    get:
+      description: Auto generated using Swagger Inspector
+      responses:
+        '200':
+          description: Auto generated using Swagger Inspector
+      servers:
+        - url: 'https://panda-dev.hotwaxsystems.com'
+    servers:
+      - url: 'https://panda-dev.hotwaxsystems.com'
+  /api/references/contactPurposes:
+    get:
+      description: Auto generated using Swagger Inspector
+      responses:
+        '200':
+          description: Auto generated using Swagger Inspector
+      servers:
+        - url: 'https://panda-dev.hotwaxsystems.com'
+    servers:
+      - url: 'https://panda-dev.hotwaxsystems.com'
+  /api/references/partyAgreementTermTypes:
+    get:
+      description: Auto generated using Swagger Inspector
+      responses:
+        '200':
+          description: Auto generated using Swagger Inspector
+      servers:
+        - url: 'https://panda-dev.hotwaxsystems.com'
+    servers:
+      - url: 'https://panda-dev.hotwaxsystems.com'
+  /api/references/contactMechTypes:
+    get:
+      description: Auto generated using Swagger Inspector
+      responses:
+        '200':
+          description: Auto generated using Swagger Inspector
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  statusDescription:
+                    type: string
+                  data:
+                    type: object
+                    properties:
+                      referenceData:
+                        type: object
+                        properties:
+                          FTP_ADDRESS:
+                            type: object
+                            properties:
+                              lastUpdatedStamp:
+                                type: number
+                              parentTypeId:
+                                type: string
+                              hasTable:
+                                type: string
+                              createdTxStamp:
+                                type: number
+                              createdStamp:
+                                type: number
+                              description:
+                                type: string
+                              lastUpdatedTxStamp:
+                                type: number
+                              contactMechTypeId:
+                                type: string
+                          INTERNAL_PARTYID:
+                            type: object
+                            properties:
+                              lastUpdatedStamp:
+                                type: number
+                              parentTypeId:
+                                type: string
+                              hasTable:
+                                type: string
+                              createdTxStamp:
+                                type: number
+                              createdStamp:
+                                type: number
+                              description:
+                                type: string
+                              lastUpdatedTxStamp:
+                                type: number
+                              contactMechTypeId:
+                                type: string
+                          WEB_ADDRESS:
+                            type: object
+                            properties:
+                              lastUpdatedStamp:
+                                type: number
+                              parentTypeId:
+                                type: string
+                              hasTable:
+                                type: string
+                              createdTxStamp:
+                                type: number
+                              createdStamp:
+                                type: number
+                              description:
+                                type: string
+                              lastUpdatedTxStamp:
+                                type: number
+                              contactMechTypeId:
+                                type: string
+                          EMAIL_ADDRESS:
+                            type: object
+                            properties:
+                              lastUpdatedStamp:
+                                type: number
+                              parentTypeId:
+                                type: string
+                              hasTable:
+                                type: string
+                              createdTxStamp:
+                                type: number
+                              createdStamp:
+                                type: number
+                              description:
+                                type: string
+                              lastUpdatedTxStamp:
+                                type: number
+                              contactMechTypeId:
+                                type: string
+                          TELECOM_NUMBER:
+                            type: object
+                            properties:
+                              lastUpdatedStamp:
+                                type: number
+                              parentTypeId: {}
+                              hasTable:
+                                type: string
+                              createdTxStamp:
+                                type: number
+                              createdStamp:
+                                type: number
+                              description:
+                                type: string
+                              lastUpdatedTxStamp:
+                                type: number
+                              contactMechTypeId:
+                                type: string
+                          ELECTRONIC_ADDRESS:
+                            type: object
+                            properties:
+                              lastUpdatedStamp:
+                                type: number
+                              parentTypeId: {}
+                              hasTable:
+                                type: string
+                              createdTxStamp:
+                                type: number
+                              createdStamp:
+                                type: number
+                              description:
+                                type: string
+                              lastUpdatedTxStamp:
+                                type: number
+                              contactMechTypeId:
+                                type: string
+                          IP_ADDRESS:
+                            type: object
+                            properties:
+                              lastUpdatedStamp:
+                                type: number
+                              parentTypeId:
+                                type: string
+                              hasTable:
+                                type: string
+                              createdTxStamp:
+                                type: number
+                              createdStamp:
+                                type: number
+                              description:
+                                type: string
+                              lastUpdatedTxStamp:
+                                type: number
+                              contactMechTypeId:
+                                type: string
+                          POSTAL_ADDRESS:
+                            type: object
+                            properties:
+                              lastUpdatedStamp:
+                                type: number
+                              parentTypeId: {}
+                              hasTable:
+                                type: string
+                              createdTxStamp:
+                                type: number
+                              createdStamp:
+                                type: number
+                              description:
+                                type: string
+                              lastUpdatedTxStamp:
+                                type: number
+                              contactMechTypeId:
+                                type: string
+                          LDAP_ADDRESS:
+                            type: object
+                            properties:
+                              lastUpdatedStamp:
+                                type: number
+                              parentTypeId:
+                                type: string
+                              hasTable:
+                                type: string
+                              createdTxStamp:
+                                type: number
+                              createdStamp:
+                                type: number
+                              description:
+                                type: string
+                              lastUpdatedTxStamp:
+                                type: number
+                              contactMechTypeId:
+                                type: string
+                          DOMAIN_NAME:
+                            type: object
+                            properties:
+                              lastUpdatedStamp:
+                                type: number
+                              parentTypeId:
+                                type: string
+                              hasTable:
+                                type: string
+                              createdTxStamp:
+                                type: number
+                              createdStamp:
+                                type: number
+                              description:
+                                type: string
+                              lastUpdatedTxStamp:
+                                type: number
+                              contactMechTypeId:
+                                type: string
+                      referenceCodes:
+                        type: array
+                        items:
+                          type: string
+                      referenceType:
+                        type: string
+                  successMessage:
+                    type: string
+                  statusCode:
+                    type: integer
+              examples:
+                '0':
+                  value: >-
+                    {"statusCode":200,"statusDescription":"OK","successMessage":"OK","data":{"referenceData":{"FTP_ADDRESS":{"lastUpdatedStamp":1588142841920,"parentTypeId":"ELECTRONIC_ADDRESS","hasTable":"Y","createdTxStamp":1588142841875,"createdStamp":1588142841920,"description":"Ftp
+                    server
+                    connection","lastUpdatedTxStamp":1588142841875,"contactMechTypeId":"FTP_ADDRESS"},"INTERNAL_PARTYID":{"lastUpdatedStamp":1588142841919,"parentTypeId":"ELECTRONIC_ADDRESS","hasTable":"N","createdTxStamp":1588142841875,"createdStamp":1588142841919,"description":"Internal
+                    Note via
+                    partyId","lastUpdatedTxStamp":1588142841875,"contactMechTypeId":"INTERNAL_PARTYID"},"WEB_ADDRESS":{"lastUpdatedStamp":1588142841918,"parentTypeId":"ELECTRONIC_ADDRESS","hasTable":"N","createdTxStamp":1588142841875,"createdStamp":1588142841918,"description":"Web
+                    URL/Address","lastUpdatedTxStamp":1588142841875,"contactMechTypeId":"WEB_ADDRESS"},"EMAIL_ADDRESS":{"lastUpdatedStamp":1588142841915,"parentTypeId":"ELECTRONIC_ADDRESS","hasTable":"N","createdTxStamp":1588142841875,"createdStamp":1588142841915,"description":"Email
+                    Address","lastUpdatedTxStamp":1588142841875,"contactMechTypeId":"EMAIL_ADDRESS"},"TELECOM_NUMBER":{"lastUpdatedStamp":1588142841914,"parentTypeId":null,"hasTable":"Y","createdTxStamp":1588142841875,"createdStamp":1588142841914,"description":"Phone
+                    Number","lastUpdatedTxStamp":1588142841875,"contactMechTypeId":"TELECOM_NUMBER"},"ELECTRONIC_ADDRESS":{"lastUpdatedStamp":1588142841912,"parentTypeId":null,"hasTable":"N","createdTxStamp":1588142841875,"createdStamp":1588142841912,"description":"Electronic
+                    Address","lastUpdatedTxStamp":1588142841875,"contactMechTypeId":"ELECTRONIC_ADDRESS"},"IP_ADDRESS":{"lastUpdatedStamp":1588142841916,"parentTypeId":"ELECTRONIC_ADDRESS","hasTable":"N","createdTxStamp":1588142841875,"createdStamp":1588142841916,"description":"Internet
+                    IP
+                    Address","lastUpdatedTxStamp":1588142841875,"contactMechTypeId":"IP_ADDRESS"},"POSTAL_ADDRESS":{"lastUpdatedStamp":1588142841913,"parentTypeId":null,"hasTable":"Y","createdTxStamp":1588142841875,"createdStamp":1588142841913,"description":"Postal
+                    Address","lastUpdatedTxStamp":1588142841875,"contactMechTypeId":"POSTAL_ADDRESS"},"LDAP_ADDRESS":{"lastUpdatedStamp":1588142843338,"parentTypeId":"ELECTRONIC_ADDRESS","hasTable":"N","createdTxStamp":1588142843198,"createdStamp":1588142843338,"description":"LDAP
+                    URL","lastUpdatedTxStamp":1588142843198,"contactMechTypeId":"LDAP_ADDRESS"},"DOMAIN_NAME":{"lastUpdatedStamp":1588142841917,"parentTypeId":"ELECTRONIC_ADDRESS","hasTable":"N","createdTxStamp":1588142841875,"createdStamp":1588142841917,"description":"Internet
+                    Domain
+                    Name","lastUpdatedTxStamp":1588142841875,"contactMechTypeId":"DOMAIN_NAME"}},"referenceCodes":["DOMAIN_NAME","ELECTRONIC_ADDRESS","EMAIL_ADDRESS","FTP_ADDRESS","INTERNAL_PARTYID","IP_ADDRESS","LDAP_ADDRESS","POSTAL_ADDRESS","TELECOM_NUMBER","WEB_ADDRESS"],"referenceType":"ContactMechTypePurpose"}}
+      servers:
+        - url: 'https://panda-dev.hotwaxsystems.com'
+    servers:
+      - url: 'https://panda-dev.hotwaxsystems.com'
+  /api/references/statusTypes:
+    get:
+      description: Auto generated using Swagger Inspector
+      responses:
+        '200':
+          description: Auto generated using Swagger Inspector
+      servers:
+        - url: 'https://panda-dev.hotwaxsystems.com'
+    servers:
+      - url: 'https://panda-dev.hotwaxsystems.com'
+components:
+  securitySchemes:
+    oauth2:
+      type: oauth2
+      flows:
+        implicit:
+          authorizationUrl: 'http://yourauthurl.com'
+          scopes:
+            scope_name: Enter your scopes here
